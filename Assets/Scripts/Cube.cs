@@ -10,7 +10,11 @@ public class Cube : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
+	int i = 0;
 	void Update () {
+
+		Debug.Log(i.ToString());
+		i++;
 	
 	}
 }
